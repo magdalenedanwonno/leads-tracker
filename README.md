@@ -1,19 +1,31 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Leads Tracker Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and efficient browser extension designed to help users save and manage web links (leads) quickly.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+ 🚀 Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+* **Save Inputs**: Manually type and save any URL or text lead.
+* **Save Current Tab**: Instantly grab the URL of your active browser tab with one click.
+* **Persistent Storage**: Uses `localStorage` to keep your leads safe even if you close the browser.
+* **Clear All**: Double-click the "Delete All" button to wipe your list and clear storage.
+* **Clean Interface**: A 400px wide popup with a green-themed professional design.
 
-Happy Coding!
+ 🛠️ Built With
+
+* **HTML5 & CSS3**: For the popup structure and styling.
+* **JavaScript**: For logic, DOM manipulation, and Chrome API integration.
+* **Chrome Extension Manifest V3**: The latest standard for browser extensions.
+
+ 📂 Project Structure
+
+* `index.html`: The markup for the extension's popup window.
+* `index.css`: Styling for inputs, buttons, and the list.
+* `index.js`: Logic for saving, rendering, and deleting leads.
+* `icon.png`: The extension's visual branding.
+
+⚙️ Installation
+
+1.  Download or clone this repository.
+2.  Open Chrome and navigate to `chrome://extensions/`.
+3.  Enable **Developer mode** in the top right.
+4.  Click **Load unpacked** and select the project folder.
